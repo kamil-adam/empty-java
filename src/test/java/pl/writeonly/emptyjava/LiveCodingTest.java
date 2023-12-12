@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LiveCodingSpec {
+public class LiveCodingTest {
 
-    @DisplayName("Add")
+    @DisplayName("Add test")
     @Test
     public void addSpec() {
         var result = LiveCoding.add(1, 2);
